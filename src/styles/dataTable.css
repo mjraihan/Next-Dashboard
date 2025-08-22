@@ -1,0 +1,100 @@
+input.gridjs-input,
+.gridjs-tbody,
+.gridjs-footer,
+.gridjs-wrapper,
+td.gridjs-td,
+th.gridjs-th {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+input.gridjs-input {
+  border-bottom: 2px solid var(--color-base-200);
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+input.gridjs-input:focus {
+  box-shadow: 0 0 0 0px transparent;
+  border-color: transparent;
+  border-bottom: 2px solid var(--color-base-200);
+}
+
+.gridjs-footer {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.gridjs-pagination .gridjs-pages button:disabled,
+.gridjs-pagination .gridjs-pages button[disabled],
+.gridjs-pagination .gridjs-pages button:hover:disabled {
+  background-color: var(--color-base-200);
+  color: inherit;
+  border-color: var(--color-base-200);
+}
+.gridjs-pagination .gridjs-pages button.gridjs-spread,
+.gridjs-pagination .gridjs-pages button {
+  background-color: var(--color-base-100);
+  color: var(--color-base-content);
+  border: 1px solid var(--color-base-300);
+  margin: 0 2px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.gridjs-pagination .gridjs-pages button:last-child {
+  border-color: var(--color-base-100);
+  border: 1px solid var(--color-base-300);
+}
+
+.gridjs-pagination .gridjs-pages button.gridjs-currentPage {
+  background-color: var(--color-primary); /* DaisyUI primary */
+  color: white; /* Primary content */
+  border-color: var(--color-primary);
+}
+
+.gridjs-footer,
+.gridjs-wrapper {
+  box-shadow: 0 0 0 0 transparent;
+}
+
+/* styles/gridjs-theme-fix.css */
+.gridjs-table {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.gridjs-th {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.gridjs-td {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+.gridjs-tr {
+  background-color: transparent !important;
+}
+
+.gridjs-container {
+  background-color: transparent !important;
+  color: inherit !important;
+  border: none !important;
+}
+
+@media screen and (max-width: 640px) {
+  .gridjs-pages,
+  .gridjs-summary {
+    margin-bottom: 10px;
+  }
+}
